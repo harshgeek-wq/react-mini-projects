@@ -1,0 +1,54 @@
+body {
+  background-color: #cffafe;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: #0f172a;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* Box sizes */
+.mini-box {
+  background-color: #ffbb10;
+  height: 100px;
+  width: 100px;
+}
+
+.medium-box {
+  background-color: #38bdf8;
+  height: 150px;
+  width: 150px;
+}
+
+.maxi-box {
+  background-color: #ec4899;
+  height: 250px;
+  width: 250px;
+}

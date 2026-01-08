@@ -1,0 +1,48 @@
+.bulb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bulb-image {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 40px;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.glow {
+  filter: drop-shadow(0 0 25px #ffeb3b);
+  transform: scale(1.05);
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.on-btn,
+.off-btn {
+  font-family: "Sans Serif";
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.on-btn {
+  background-color: #19be19;
+}
+
+.off-btn {
+  background-color: #c31d1d;
+}
+
+.on-btn:hover,
+.off-btn:hover {
+  transform: scale(1.05);
+}

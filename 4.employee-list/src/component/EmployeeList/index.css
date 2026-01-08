@@ -1,0 +1,15 @@
+.heading {
+  font-size: 2rem;
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.employee-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}

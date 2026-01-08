@@ -1,0 +1,8 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #fefc64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}

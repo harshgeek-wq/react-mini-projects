@@ -1,0 +1,83 @@
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.heading {
+  font-size: 48px;
+  font-style: italic;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.speedometer-image {
+  width: 600px;
+  max-width: 90%;
+}
+
+.speed-text {
+  color: #000000;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.limit-text {
+  color: #fd1313;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.brake-btn {
+  background-color: transparent;
+  border: 2px solid #0b69ff;
+  color: #0b69ff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .speedometer-image {
+    width: 300px;
+  }
+
+  .speed-text {
+    font-size: 22px;
+  }
+
+  .limit-text {
+    font-size: 14px;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

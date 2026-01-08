@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Sans Serif";
+  background: linear-gradient(to right, #ffefba, #ffffff);
+}
+
+.app-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.cart-container {
+  margin-top: 20px;
+}
+
+.line {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #000000;
+}
+
+.total {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  display: inline-block;
+  padding-bottom: 8px;
+}

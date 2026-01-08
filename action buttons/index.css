@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://magmarank.com/wp-content/uploads/2018/07/Social-Media-Marketing-Banner-Background-Image.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  color: #ffffff;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.like-button {
+  background-color: #ffd24e;
+  color: #323f4b;
+}
+
+.comment-button {
+  background-color: #f8f8f8;
+  color: #323f4b;
+}
+
+.share-button {
+  background-color: #214dc5;
+  color: #ffffff;
+}

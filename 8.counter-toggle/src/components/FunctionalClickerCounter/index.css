@@ -1,0 +1,42 @@
+.counter-container {
+  text-align: center;
+  font-family: "Sans Serif";
+  color: #2e3231;
+}
+
+.heading {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.counter-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.count {
+  color: #0d9304;
+  font-size: 36px;
+}
+
+.info-text {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.click-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.click-button:hover {
+  background-color: #0056b3;
+}

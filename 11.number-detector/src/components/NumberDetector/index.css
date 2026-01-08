@@ -1,0 +1,55 @@
+.detector-card {
+  width: var(--card-width);
+  max-width: 760px;
+  padding: 48px 36px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(15,23,42,0.12);
+
+  background: linear-gradient(180deg, #c6ffdd 0%, #fbd786 100%);
+  color: var(--text-dark);
+}
+
+.number-display {
+  font-size: 72px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 10px 0 28px;
+}
+
+.parity {
+  font-size: 22px;
+  color: #334155; 
+  margin-bottom: 22px;
+}
+
+.raise-btn {
+  background: white;
+  color: #0f172a;
+  border: none;
+  padding: 10px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(30,41,59,0.08);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.raise-btn:hover {
+  transform: translateY(-2px);
+  transition: transform 0.12s ease;
+}
+
+.note {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #475569;
+}
+
+@media (max-width: 575.98px) {
+  .detector-card {
+    padding: 28px 18px;
+  }
+  .number-display { font-size: 48px; }
+  .parity { font-size: 18px; }
+}

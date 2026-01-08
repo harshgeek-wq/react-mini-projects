@@ -1,0 +1,27 @@
+
+:root{
+  --card-width: min(720px, 92%);
+  --bg-left: #c6ffdd; 
+  --bg-right: #fbd786;
+  --text-dark: #0f172a;
+}
+
+* { box-sizing: border-box; }
+html,body,#root { height: 100%; margin: 0; }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sans Serif", Arial, Helvetica, sans-serif;
+
+  background-image: url("/mnt/data/653c31bf-b411-4551-9198-c9077cea884a.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: rgba(250,250,240,0.75);
+  background-blend-mode: lighten;
+  padding: 40px 20px;
+}

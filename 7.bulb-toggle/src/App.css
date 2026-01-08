@@ -1,0 +1,10 @@
+.app-container {
+  background-image: url("https://t4.ftcdn.net/jpg/05/83/13/75/360_F_583137522_P8utxD2yBx8O7kYE9nmi92HR4NS81N3B.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sans Serif";
+}

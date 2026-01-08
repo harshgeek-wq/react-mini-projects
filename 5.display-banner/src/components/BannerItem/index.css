@@ -1,0 +1,71 @@
+.banner-card {
+  height: 240px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  
+  justify-content: flex-start; 
+}
+
+.banner-content {
+  padding: 38px 48px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 8px;
+  min-width: 400px;
+  box-shadow: 0 2px 12px rgba(83,97,118,.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.banner-heading {
+  font-family: 'Sans Serif', Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  color: #2b5d8c;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-shadow: 1.5px 2.5px 4px #d1cacf6b;
+}
+
+.banner-description {
+  font-size: 1.23rem;
+  color: #536176;
+  margin-bottom: 24px;
+  font-family: 'Sans Serif', Arial, Helvetica, sans-serif;
+}
+
+.banner-button {
+  background-color: #fff;
+  color: #2b5d8c;
+  border: 2px solid #3777b3;
+  padding: 7px 22px;
+  border-radius: 7px;
+  font-family: 'Sans Serif', Arial, Helvetica, sans-serif;
+  font-size: 1.08rem;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  transition: background 0.16s, color 0.16s;
+}
+.banner-button:hover {
+  background: #3777b3;
+  color: #fff;
+}
+
+.card-1 {
+  background-color: #fae4ea;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-light-pastel-geometric-banner-background-bluegeometrygraywhiteliterarysimple-image_83281.jpg');
+  justify-content: flex-start;
+}
+.card-3 {
+  background-color: #e6ecfa;
+  background-image: url('https://t3.ftcdn.net/jpg/00/77/26/32/360_F_77263286_0BkXVWphNtPTazI4xPHpFUfhxDkHlRJc.jpg');
+  justify-content: center;
+}
+.card-2 {
+  background-color: #e6edfa;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTe4uCfV39rzksakQbRZO-ghvBncTdCd3d4jQnPthUYup4pv7mB3PzgK_Z6LNfdxp3UBw&usqp=CAU');
+  justify-content: flex-end;
+}
+
