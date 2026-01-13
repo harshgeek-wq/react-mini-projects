@@ -1,0 +1,8 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff7a55, #eea849);
+  font-family: 'Roboto', sans-serif;
+}

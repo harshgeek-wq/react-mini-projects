@@ -1,0 +1,14 @@
+.denomination-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e31e21;
+  color: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.denomination-button:hover {
+  opacity: 0.9;
+}
